@@ -40,7 +40,7 @@ app.get("/ping", (req, res) => {
 
 //Raiz
 app.get('/', (req, res)=>{
-  res.status(200).send('<h1>Primer Pre entrega Ayelén Anca </h1>')
+  res.status(200).send('<h1>Primer Pre entrega LUIS CARLOS LASSO </h1>')
 });
 
 app.use("/imagenes", express.static("public"))
